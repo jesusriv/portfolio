@@ -19,7 +19,7 @@ const Contact = () => {
 
     const Form = () => {
         return (
-            <div className='mt-10 flex flex-col sm:flex-row items-center sm:items-start space-y-8 sm:space-y-0 w-fit'>
+            <div className='mt-24 flex flex-col sm:flex-row items-center sm:items-start space-y-8 sm:space-y-0 w-fit'>
                 <div className='w-[350px] sm:w-[450px] px-2 sm:px-12'>
                     <h1 className='font-medium text-3xl uppercase'>Work with me</h1>
                     <div className='w-1/3 ml-16 sm:w-1/6 border border-[#d6b664] sm:ml-[135px]'></div>
