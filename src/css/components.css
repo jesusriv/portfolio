@@ -1,11 +1,5 @@
 .container {
-    @apply my-10 flex
-    flex-col;
-}
-
-.content {
-    @apply w-full flex-1 text-black/70 relative flex flex-col h-fit 
-    max-h-[600px];
+    @apply h-screen pt-10 flex flex-col;
 }
 
 .location {
@@ -13,8 +7,8 @@
 }
 
 .projects-container {
-    @apply w-full flex-1 flex flex-col items-center
-    overflow-y-auto scrollbar-hide py-6 space-y-6 pt-28 mt-[-100px]; 
+    @apply w-full pt-6 pb-12 flex-1 flex flex-col items-center
+    overflow-y-auto scrollbar-hide space-y-8; 
 }
 
 .project {
@@ -37,12 +31,12 @@
 
 
     .projects-container {
-        @apply px-10 flex-row space-y-0 items-start overflow-x-auto space-x-8 scrollbar-default;
+        @apply px-10 flex-row space-y-0 items-start overflow-x-auto justify-between scrollbar-default;
     }
 }
 
 @screen xl {
     .projects-container {
-        @apply overscroll-x-none ;
+        @apply overscroll-x-none py-0;
     }
 }

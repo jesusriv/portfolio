@@ -2,18 +2,18 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="flex-1 py-4 sm:px-4 text-black/80 w-3/4 mx-auto">
+        <div className="w-2/3 flex-1 overflow-y-auto pb-16 sm:px-4 text-black/80 mx-auto no-scrollbar">
             <h1 className='text-2xl sm:text-4xl leading-loose border-b-4 border-b-[#E2C67F]/60 w-fit mb-2'
                 >Hi! 👋🏻 My name is Jesus. 
             </h1>
             <p className='text-lg'>
-                    I'm a Software Developer based in Los Angeles, CA. 🌇 
+                    A software developer from ☀️ LA using logic and design to program tools that solve real-world problems. 
                 <br />
                 <br />
-                    In addition the projects featured on here, I'm currently on an endeavour to learn the ins and outs of contributing to open source projects. My goal is to begin an open source project of my own to share and grow with the community. Follow me on <a className="font-medium text-blue-400 underline hover:cursor-pointer" href="https://github.com/jesusriv/">Github</a> to collaborate!
+                    When not hacking away at my computer, I love spending time with my wife , son, and (soon) daughter 👨‍👩‍👧‍👦. I enjoy listening to music 🎷 and writing ✍🏻, of which I’m excited to do more of in a technical format on the Dev.to community site, <a className="font-medium text-blue-500/80 underline hover:cursor-pointer" href="https://dev.to/iammjesus">here</a>. Be sure to join and follow along for coding tips, and the occasional story or two! 
                 <br />
                 <br />
-                    In my free time I enjoy spending time with my wife and son 👨‍👩‍👦, listening to music, and writing, which I intend to begin doing more of in a technical context to teach programming, <a className="font-medium text-blue-400 underline hover:cursor-pointer" href="https://dev.to/iammjesus">here</a>.
+                    Along with this, I’ll be contributing to open-source projects in hopes of documenting the experience to help others and myself learn, to build an OS project, creating opportunities for the developer community to contribute to. Check out my <a className="font-medium text-blue-500/80 underline hover:cursor-pointer" href="https://github.com/jesusriv/">Github</a> account to collaborate! 
             </p>
         </div>
     );

@@ -6,6 +6,8 @@
 
 html {
   height: 100% !important;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 body {
@@ -15,6 +17,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-height: 100% !important;
   display: flex;
+  
 }
 
 #root {
@@ -22,6 +25,13 @@ body {
   flex: 1;
   display: flex;
   background-color: rgb(245, 245, 245);
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 @tailwind utilities;
