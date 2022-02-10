@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Budget App",
+        "description": "A budget tracker to track... well, your budget! Create categories and assign how much you want to spend, and track each transaction.",
+        "more": "Demo will be live on Feb 13th!",
+        "technologies": ["React", "MongoDb", "Expresjs", "NodeJS", "TailwindCss"],
+        "gitLink": "https://github.com/jesusriv/budget-web-app",
+        "projectLink": "",
+        "tools": ["mongodb", "expressjs", "react", "nodejs", "javascript", "tailwindcss"]
+    },
+    {
+        "name": "Image Splash",
+        "description": "Image Splash was built in Angular using the Unsplash API. Search for images of people, places, or things. Discover them and the photographers who take them.",
+        "technologies": ["Angular", "REST API"],
+        "gitLink": "https://github.com/jesusriv/image-app",
+        "projectLink": "https://jesusriv.github.io/image-app/search",
+        "tools": ["mongodb", "expressjs", "angular", "nodejs"]
+    },
+    {
+        "name": "Bounce Attack",
+        "description": "Bounce attack was built in Java, using the Processing drawing library. The goal? Crash the game!",
+        "more": "To demo, see README on the repository page on Github for instructions.",
+        "technologies": [],
+        "gitLink": "https://github.com/jesusriv/bounce_attack",
+        "projectLink": null,
+        "tools": ["java", "processing"]
+    }
+]

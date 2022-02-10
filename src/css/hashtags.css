@@ -1,0 +1,39 @@
+.hastag {
+    @apply px-3 py-1 w-fit bg-black/80 tracking-wide text-xs font-medium;
+}
+
+.mongodb {
+    @apply text-[#3FA037];
+}
+
+.expressjs {
+    @apply text-white;
+}
+
+.react {
+    @apply text-[#61DBFB]
+}
+
+.nodejs {
+    @apply text-[#68A063];
+}
+
+.javascript {
+    @apply text-[#f7df1e];
+}
+
+.angular {
+    @apply text-[#df4649];
+}
+
+.tailwindcss {
+    @apply text-sky-500 text-sm;
+}
+
+.processing {
+    @apply text-[#2179ff];
+}
+
+.java {
+    @apply text-[#F89820];
+}

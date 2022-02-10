@@ -1,0 +1,13 @@
+<svg id="Languages_Icon" data-name="Languages Icon" xmlns="http://www.w3.org/2000/svg" width="68.89" height="53.53" viewBox="0 0 68.89 53.53">
+  <g id="Group_13" data-name="Group 13" transform="translate(0 0)">
+    <g id="Group_12" data-name="Group 12">
+      <path id="Path_11" data-name="Path 11" d="M63.532,34.62H5.358A5.114,5.114,0,0,0,0,39.435v43.9A5.114,5.114,0,0,0,5.358,88.15H63.532a5.114,5.114,0,0,0,5.358-4.815v-43.9A5.114,5.114,0,0,0,63.532,34.62ZM64.3,83.336a.731.731,0,0,1-.765.688H5.358a.731.731,0,0,1-.765-.688v-34.3H64.3v34.3Zm0-38.429H4.593V39.435a.731.731,0,0,1,.765-.688H63.532a.731.731,0,0,1,.765.688Z" transform="translate(0 -34.62)" fill="#FAFAFA"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="1.727" cy="1.552" rx="1.727" ry="1.552" transform="translate(7.934 5.655)" fill="#FAFAFA"/>
+      <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="1.727" cy="1.552" rx="1.727" ry="1.552" transform="translate(13.472 5.655)" fill="#FAFAFA"/>
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="1.727" cy="1.552" rx="1.727" ry="1.552" transform="translate(19.009 5.655)" fill="#FAFAFA"/>
+      <path id="Path_12" data-name="Path 12" d="M80.922,234.529c2.142,1.925,5.391-.992,3.248-2.918l-7.182-6.454,7.182-6.454c2.146-1.928-1.1-4.848-3.248-2.918L72.116,223.7a1.919,1.919,0,0,0,0,2.918Z" transform="translate(-61.83 -193.326)" fill="#FAFAFA"/>
+      <path id="Path_13" data-name="Path 13" d="M344.625,234.535l8.806-7.913a1.919,1.919,0,0,0,0-2.918l-8.806-7.913c-2.145-1.928-5.4.988-3.248,2.918l7.182,6.454-7.182,6.454C339.191,233.581,342.523,236.423,344.625,234.535Z" transform="translate(-294.826 -193.331)" fill="#FAFAFA"/>
+      <path id="Path_14" data-name="Path 14" d="M198,220.338l13.145-20.458c1.52-2.365-2.461-4.424-3.977-2.063l-13.145,20.458C192.494,220.656,196.5,222.677,198,220.338Z" transform="translate(-167.621 -177.169)" fill="#FAFAFA"/>
+    </g>
+  </g>
+</svg>
