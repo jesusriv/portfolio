@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className="w-full sm:mt-0 sm:mb-8 flex justify-between items-center text-black/70 px-6 xl:px-0">
+        <header className="w-full flex justify-between items-center text-black/70 px-6 xl:px-0">
             <Link className='text-2xl text-black/80 r-[2px] font-light hover:cursor-pointer' to="/">JR</Link>
             <Link to="/contact">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -5,7 +5,16 @@ import github from '../assets/images/github.png'
 import linkedin from '../assets/images/linkedin.webp'
 
 const Contact = () => {
-    const[state, handleSubmit] = useForm("contactForm");
+    const[state, handleSubmit] = useForm("xzboelgw");
+
+    if (state.succeeded) {
+        return <div className='absolute w-full h-full flex flex-col items-center justify-center'>
+            <p className='text-2xl font-medium'>Thank you!</p>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 rotate-45" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+            </svg>
+        </div>
+    }
 
     return (
         <div className='flex flex-col sm:flex-row mt-5 mx-auto sm:m-auto py-10 absolute w-full h-full items-center justify-center'>
@@ -46,7 +55,7 @@ const Contact = () => {
                             errors={state.errors} />
                     </div>
 
-                    <button className='py-2 px-8 rounded text-white font-medium tracking-widest bg-[#16292F] shadow-md uppercase'>Submit</button>
+                    <button type='submit' disabled={state.submitting} className='py-2 px-8 rounded text-white font-medium tracking-widest bg-[#16292F] shadow-md uppercase'>Submit</button>
                 </form>
             </div>
             <div className='flex space-x-3 sm:flex-col sm:h-3/4 pt-6 items-center sm:space-x-0 sm:space-y-3 justify-start uppercase text-md font-bold'>
