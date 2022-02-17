@@ -2,11 +2,10 @@
     {
         "name": "Budget App",
         "description": "A budget tracker to track... well, your spending! Create categories to budget how much you want to spend and track each transaction.",
-        "more": "Demo will be live on Feb 16th!",
         "technologies": ["React", "MongoDb", "Expresjs", "NodeJS", "TailwindCss"],
         "gitLink": "https://github.com/jesusriv/budget-web-app",
-        "projectLink": "",
-        "tools": ["mongodb", "expressjs", "react", "nodejs", "javascript", "tailwindcss"]
+        "projectLink": "https://budget-this.herokuapp.com/register",
+        "tools": ["mongodb", "expressjs", "react", "redux", "nodejs", "javascript", "tailwindcss"]
     },
     {
         "name": "Image Splash",

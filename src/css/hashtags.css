@@ -11,7 +11,11 @@
 }
 
 .react {
-    @apply text-[#61DBFB]
+    @apply text-[#61DBFB];
+}
+
+.redux {
+  @apply text-[#764abc];
 }
 
 .nodejs {
