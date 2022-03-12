@@ -23,6 +23,7 @@ function App() {
           <Link to="/" className={`${(currentLocation === "/" && "border-[#E2C67F]") || "border-b-transparent"} location`}>home</Link>
           <Link to="/projects" className={`${(currentLocation === "/projects" && "border-[#E2C67F]") || "border-b-transparent"} location`}>projects</Link>
           <Link to="/about" className={`${(currentLocation === "/about" && "border-[#E2C67F]") || "border-b-transparent"} location`}>about</Link>
+          <a className="border-b-transparent location" href="https://drive.google.com/file/d/1CNsIKkyuUJZ_tZFAfcQ-jJ9HF0qqOY7G/view?usp=sharing">resume</a>
         </nav>}
 
       <Routes>
