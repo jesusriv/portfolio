@@ -3,7 +3,7 @@
 }
 
 .location {
-    @apply px-4 py-2 border-b-2 border-b-transparent;
+    @apply text-sm px-4 py-2 border-b-2 border-b-transparent;
 }
 
 .projects-container {
@@ -32,6 +32,10 @@
 
     .projects-container {
         @apply px-10 flex-row space-y-0 items-start overflow-x-auto justify-between scrollbar-default;
+    }
+
+    .location {
+      @apply text-[16px];
     }
 }
 
