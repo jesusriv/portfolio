@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="w-full flex-1 overflow-y-auto pb-16 px-12 sm:px-4 text-black/80 mx-auto no-scrollbar">
+        <div className="relative flex flex-col items-center justify-center md:px-32 px-12" id="about">
             <h1 className='text-2xl sm:text-4xl leading-loose border-b-4 border-b-[#E2C67F]/60 w-fit mb-2'
                 >Hi! 👋🏻 My name is Jesus. 
             </h1>

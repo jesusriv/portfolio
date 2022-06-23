@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
-@import url('./css/components.css');
 @import url('./css/hashtags.css');
 
 html {
@@ -17,14 +16,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-height: 100% !important;
   display: flex;
-  
+  background-color: rgb(245, 245, 245);
 }
 
 #root {
   width: 100%;
   flex: 1;
   display: flex;
-  background-color: rgb(245, 245, 245);
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }

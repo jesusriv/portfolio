@@ -31,7 +31,7 @@ const Project = ({ project }) => {
     }, [getImage, image])
 
     return (
-        <div className="project rounded-md relative">
+        <div className="h-fit w-[290px] flex flex-col shrink-0 bg-neutral-100 border-8 border-[#c9a447]/40 shadow-md rounded-md relative">
             <div className="h-[150px] w-full overflow-hidden bg-cover border-b-2 border-b-[#c9a447]/90 shadow-md" style={{ backgroundImage: `url(${image})` }}></div>
 
             <div className="flex-1 flex flex-col space-y-4 ">
@@ -44,10 +44,10 @@ const Project = ({ project }) => {
             </div>
 
             <div className="w-full flex-1 text-sm px-2 pt-3 flex items-center space-x-2">
-                <button className="btn">
+                <button className="bg-[#16292F]/90 text-sm font-semibold px-4 py-2 rounded shadow-sm hover:bg-[#101f23] uppercase text-white">
                     <a href={gitLink}>Github</a>
                 </button>
-                {projectLink && <button className="accent-btn">
+                {projectLink && <button className="bg-[#d6b664] text-sm font-semibold px-4 py-2 rounded shadow-sm hover:bg-[#ceaa4e] uppercase text-black/70">
                     <a href={projectLink}>Live Demo</a>
                 </button>}
             </div>
