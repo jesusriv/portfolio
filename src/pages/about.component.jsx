@@ -13,7 +13,7 @@ const About = () => {
               When I'm not programming, I'm spending time with my wife and children, enjoying music, reading, and/or studying to complete my CS major.
               <br/>
               <br/>
-              Be sure to take a look at my current projects found below! Collaboration, and all other, inquiries are always welcomed, so be sure to reach out! 👋  
+              Be sure to take a look at my current projects found below! Collaboration inquiries are always welcomed, so be sure to reach out! 👋  
             </p>
         </div>
     );
