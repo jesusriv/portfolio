@@ -7,7 +7,7 @@ const About = () => {
               >Hi! I'm Jesus. 
             </h1>
             <p className='text-lg'>
-              I'm a Los Angeles based Front End Developer, constantly and consistently broadening my understanding about everything programming related.
+              I'm a Los Angeles based Front End Developer, constantly and consistently broadening my understanding of everything programming related.
               <br/>
               <br/>
               When I'm not programming, I'm spending time with my wife and children, enjoying music, reading, and/or studying to complete my CS major.
