@@ -1,0 +1,195 @@
+@import url("https://use.typekit.net/qga6cfh.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  font-family: "rubik", sans-serif; 
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  li {
+    padding: 1rem 2rem .75rem;
+    border-radius: 2rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #58b09e;
+      color: #f8f8f8;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+
+}
+
+header {
+  padding-top: 6rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 6rem;
+  max-width: 108rem;
+  padding: 0 1.5rem;
+}
+
+#contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  height: 60vh;
+  justify-content: center;
+  position: relative;
+
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 2.8rem;
+  }
+
+  .contact-links {
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    width: fit-content;
+  }
+}
+
+footer {
+  padding: 0 2.5rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  padding: .5rem 0;
+
+  p {
+    font-size: 1.6rem !important;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+
+#theme-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #151925;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.sun i {
+  color: #f2cf45;
+}
+
+.dark {
+  background-color: #0f0f0f;
+  color: #d8d8d8;
+}
+
+.light {
+  background-color: #f4f4f4;
+  color: #151925;
+}
+
+.flicker {
+  animation: flicker .5s infinite;
+  width: 2rem;
+  height: 1rem;
+  background-color: #f2cf45;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  .landing {
+    height: 70vh;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 900px) {
+  main {
+    margin-top: 0;
+    padding: 0 2.5rem;
+  }
+}

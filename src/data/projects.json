@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Winesearch",
+    "description": "Winesearch served as a real tool for me while working in a wine shop, where a common question was \"Which wine would you recommend?\" To better answer this question, the data off of the store's website was scraped and stored, in order to take advantage of the wine description. A simple form requiring key terms to identify flavors, charecteristics, or even a name, allowed my team and myself to find the best recommendations.",
+    "gitLink": "https://github.com/jesusriv/wineglass",
+    "projectLink": null,
+    "tools": [
+      "React",
+      "ExpressJS",
+      "NodeJS",
+      "Puppeteer"
+    ]
+  },
+  {
+    "name": "Image Splash",
+    "description": "Image Splash was built in Angular using the Unsplash API. Search for images of people, places, or things. Discover them and the photographers who take them.",
+    "technologies": [
+      "Angular",
+      "REST API"
+    ],
+    "gitLink": "https://github.com/jesusriv/image-app",
+    "projectLink": "https://jesusriv.github.io/image-app/search",
+    "tools": [
+      "MongoDB",
+      "ExpressJS",
+      "Angular",
+      "NodeJS"
+    ]
+  },
+  {
+    "name": "Bounce Attack",
+    "description": "Bounce attack was built in Java, using the Processing drawing library. The goal? Crash the game!",
+    "more": "To demo, see README on the repository page on Github for instructions.",
+    "technologies": [],
+    "gitLink": "https://github.com/jesusriv/bounce_attack",
+    "projectLink": null,
+    "tools": [
+      "Java",
+      "Processing"
+    ]
+  }
+]

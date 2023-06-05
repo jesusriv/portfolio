@@ -1,0 +1,154 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.project {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  border-radius: .75rem;
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  background-color: #fdfdfd;
+  max-width: 35rem;
+  min-width: 35rem;
+  height: fit-content;
+  position: relative;
+  margin: 0 auto;
+
+  .img-container {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  i {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #28282866;
+    transition: all .3s ease-in-out;
+  }
+
+  .rotate-up {
+    transform: rotate(180deg);
+  }
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+
+  .demo {
+    background-color: #f8f8f8;
+    border: 3px solid #282828;
+
+    &:hover {
+      background-color: #282828;
+
+      a {
+        color: #f8f8f8;
+      }
+    }
+
+    a {
+      color: #282828;
+    }
+  }
+}
+
+.projects-container {
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-info {
+  padding: .5rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1.5rem;
+
+  &__title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  &__desc {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  &__tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+
+    span {
+      background-color: #f8f8f8;
+      border: 1px solid #eaeaea;
+      padding: .5rem 1rem .4rem;
+      border-radius: .5rem;
+    }
+  }
+
+  button {
+    background-color: #282828;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    flex: 1;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.projects-dark {
+  background-color: #181818;
+  box-shadow: 0 0 6rem rgba(255, 255, 255, 0.11);
+  border: 3px solid #9cd6c8 !important;
+
+  span {
+    color: #282828;
+    font-weight: 400;
+  }
+  
+  button {
+    background-color: #9cd6c8;
+    color: #282828;
+  }
+
+  .more i {
+    color: #f8f8f8;
+  }
+}
+
+@media (min-width: 600px) {
+  .project {
+    border-width: 2px;
+  }
+
+  .projects-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 6rem;
+  }
+}

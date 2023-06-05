@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Jesus.languages",
+    "content": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "Lua",
+      "Español"
+    ]
+  },
+  {
+    "title": "Jesus.tools",
+    "content": [
+      "React",
+      "Node",
+      "Express",
+      "MongoDB",
+      "PostgreSQL",
+      "Git",
+      "Neovim",
+      "VSCode",
+      "Tmux",
+      "Zsh"
+    ]
+  }
+]
