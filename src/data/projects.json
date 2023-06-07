@@ -2,8 +2,8 @@
   {
     "name": "Winesearch",
     "description": "Winesearch served as a real tool for me while working in a wine shop, where a common question was \"Which wine would you recommend?\" To better answer this question, the data off of the store's website was scraped and stored, in order to take advantage of the wine description. A simple form requiring key terms to identify flavors, charecteristics, or even a name, allowed my team and myself to find the best recommendations.",
-    "gitLink": "https://github.com/jesusriv/wineglass",
-    "projectLink": null,
+    "gitLink": "https://github.com/jesusriv/winesearch",
+    "projectLink": "https://jesusriv.github.io/winesearch",
     "tools": [
       "React",
       "ExpressJS",
