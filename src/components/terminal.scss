@@ -1,0 +1,50 @@
+#terminal {
+  max-width: 40rem;
+  height: 22rem;
+  background-color: #151925;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  overflow: hidden;
+  font-family: "source-code-pro", monospace;
+  font-size: 1.2rem;
+  margin-top: 2.3rem;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, .4); 
+
+  .output {
+    margin: 1rem 1.4rem;
+  }
+
+  .title {
+    color: #60DA98;
+  }
+
+  .content {
+    color: #F19620;
+    font-style: italic;
+  }
+}
+
+#terminal-border {
+  background-color: #15151D;
+  display: flex;
+  gap: .5rem;
+  padding: .6rem 1rem; 
+
+  div {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+
+  .close {
+    background-color: #FF5F56;
+  }
+
+  .minimize {
+    background-color: #FFBD2E;
+  }
+
+  .maximize {
+    background-color: #27C93F;
+  }
+}

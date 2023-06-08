@@ -1,20 +1,20 @@
 import React from 'react'
-import './about.scss'
+import './terminal.scss'
 import about from '../data/about'
 
-const About = ({ theme }) => {
+const Terminal = () => {
   return (
-    <div className={theme !== 'light' ? 'terminal-dark': 'terminal-light'} id="about">
-      <div id="terminal-border" className={theme === "dark" ? 'terminal-dark-border' : ''}>
+    <div id="terminal">
+      <div id="terminal-border">
         <div className="close"></div>
         <div className="minimize"></div>
         <div className="maximize"></div>
       </div>
       {about.map((item, index) => {
         return (
-          <div key={index}>
-            <p className='about-title'>{'> ' + item.title}</p>
-            <p className='about-content'>
+          <div key={index} className="output">
+            <p className='title'>{'> ' + item.title}</p>
+            <p className='content'>
               {item.content.map((content, index) => {
                 return (
                   <span key={index}>
@@ -32,4 +32,4 @@ const About = ({ theme }) => {
   )
 }
 
-export default About
+export default Terminal
