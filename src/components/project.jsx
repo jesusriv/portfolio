@@ -17,7 +17,7 @@ const Project = ({ project, index }) => {
         } else {
           setInView(false)
         }
-      }, { threshold: 0.1, rootMargin: '-200px' })
+      })
 
     if (element) {
       observer.observe(element)
