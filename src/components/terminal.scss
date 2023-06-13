@@ -1,5 +1,5 @@
 #terminal {
-  max-width: 40rem;
+  width: 100%;
   height: 22rem;
   background-color: #151925;
   border-top-left-radius: 1rem;
@@ -46,5 +46,12 @@
 
   .maximize {
     background-color: #27C93F;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  #terminal {
+    min-width: 40rem;
+    max-width: 60rem;
   }
 }
