@@ -1,7 +1,7 @@
 [
   {
     "name": "Winesearch",
-    "description": "Winesearch served as a real tool for me while working in a wine shop, where a common question was \"Which wine would you recommend?\" To better answer this question, the data off of the store's website was scraped and stored, in order to take advantage of the wine description. A simple form requiring key terms to identify flavors, charecteristics, or even a name, allowed my team and myself to find the best recommendations.",
+    "description": "Winesearch proved to be an invaluable tool during my time at a well-known wine retailer, where customers often asked, 'Which wine would you recommend?' To enhance the recommendation process, I developed an application using React and utilized Puppeteer for data scraping. By accessing and storing the store's website data, we gained the ability to provide tailored wine recommendations based on customers' food pairings, specific flavors, or desired characteristics such as oaked, tannin, dry, and more. The app streamlined the search process, allowing for a more personalized and enjoyable wine selection experience.",
     "gitLink": "https://github.com/jesusriv/winesearch",
     "projectLink": "https://jesusriv.github.io/winesearch",
     "tools": [
